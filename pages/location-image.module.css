@@ -1,0 +1,16 @@
+.imageIcon,
+.locationimage {
+  position: relative;
+  height: 128px;
+}
+.imageIcon {
+  width: 234px;
+  object-fit: cover;
+}
+.locationimage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

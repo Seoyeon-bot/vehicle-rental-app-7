@@ -1,0 +1,17 @@
+.vectorIcon {
+  position: absolute;
+  height: 50%;
+  width: 75%;
+  top: 25%;
+  right: 12.46%;
+  bottom: 25%;
+  left: 12.54%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.hamburgerIcon {
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+}

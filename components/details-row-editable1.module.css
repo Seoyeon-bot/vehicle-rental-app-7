@@ -1,0 +1,62 @@
+.reservationDetailsGroupText {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 100%;
+  font-weight: 500;
+}
+.reservationDetailsGroupHead {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.label {
+  border-bottom: 2px solid var(--color-black);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) 0;
+}
+.detailcell,
+.label,
+.value {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.value {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) 0;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+}
+.detailcell {
+  display: none;
+  flex-direction: column;
+  padding: 0 var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.bodyDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.detailsroweditable,
+.reservationDetailsGroupBody {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-17xl);
+}
+.detailsroweditable {
+  flex-direction: column;
+  text-align: center;
+  font-size: var(--reg-medium-size);
+  color: var(--color-black);
+  font-family: var(--reg-medium);
+}

@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import { useEffect } from "react";
 import LinkHamburgerNonBottomCont from "./link-hamburger-non-bottom-cont";
 import LinkHamburgerBottomContaine from "./link-hamburger-bottom-containe";
+import styles from "./hamburger.module.css";
 
 type HamburgerType = {
   onClose?: () => void;
@@ -17,7 +18,7 @@ const Hamburger: NextPage<HamburgerType> = ({ onClose }) => {
         for (const entry of entries) {
           if (entry.isIntersecting || entry.intersectionRatio > 0) {
             const targetElement = entry.target;
-            targetElement.classList.add("animate");
+            targetElement.classList.add(styles.animate);
             observer.unobserve(targetElement);
           }
         }
@@ -38,10 +39,7 @@ const Hamburger: NextPage<HamburgerType> = ({ onClose }) => {
     };
   }, []);
   return (
-    <div
-      className="bg-white w-[400px] overflow-hidden flex flex-col items-center justify-start p-[30px] box-border gap-[10px] [&.animate]:animate-[0.25s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0] h-full max-w-[90%]"
-      data-animate-on-scroll
-    >
+    <div className={styles.hamburger} data-animate-on-scroll>
       <LinkHamburgerNonBottomCont linkText="Link / Hamburger / Non-Bottom" />
       <LinkHamburgerNonBottomCont linkText="Link / Hamburger / Non-Bottom" />
       <LinkHamburgerBottomContaine linkText="Link / Hamburger / Bottom" />

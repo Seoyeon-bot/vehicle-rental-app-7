@@ -1,0 +1,54 @@
+.tempimagexkbq5g1Icon {
+  position: relative;
+  width: 284px;
+  height: 177px;
+  object-fit: cover;
+}
+.home1 {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 100%;
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  width: 433px;
+  height: 337px;
+  flex-shrink: 0;
+}
+.containermain,
+.exampleMain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.containermain {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--reg-heading-size);
+  color: var(--color-black);
+  font-family: var(--reg-medium);
+}
+.home,
+.verticalSpacer {
+  background-color: var(--color-white);
+}
+.verticalSpacer {
+  align-self: stretch;
+  height: 505px;
+}
+.home {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-125xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}

@@ -1,0 +1,39 @@
+.reservationDetailsGroupText {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 100%;
+  font-weight: 500;
+}
+.bodyDetails,
+.reservationDetailsGroupHead {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.reservationDetailsGroupHead {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.bodyDetails {
+  flex: 1;
+  justify-content: space-between;
+}
+.detailsroweditable,
+.reservationDetailsGroupBody {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.reservationDetailsGroupBody {
+  align-self: stretch;
+  flex-direction: row;
+}
+.detailsroweditable {
+  width: 1152px;
+  flex-direction: column;
+  text-align: center;
+  font-size: var(--reg-medium-size);
+  color: var(--color-black);
+  font-family: var(--reg-medium);
+}

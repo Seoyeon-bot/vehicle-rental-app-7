@@ -1,0 +1,6 @@
+.stepsConnector {
+  border-bottom: 2px solid var(--color-black);
+  box-sizing: border-box;
+  height: 100px;
+  flex: 1;
+}

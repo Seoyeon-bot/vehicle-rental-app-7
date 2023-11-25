@@ -1,0 +1,64 @@
+.borrowOurCars {
+  margin: 0;
+}
+.textfooterTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.textfooter {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 100%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 397px;
+  flex-shrink: 0;
+}
+.textFooterContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.imageourLogoIcon {
+  position: relative;
+  width: 176px;
+  height: 184px;
+  object-fit: cover;
+}
+.ourLogoContainer {
+  flex-direction: column;
+  justify-content: center;
+}
+.containerfooter,
+.linkfooter,
+.ourLogoContainer {
+  display: flex;
+  align-items: center;
+}
+.linkfooter {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 100%;
+  font-weight: 500;
+  color: inherit;
+  justify-content: center;
+  width: 86px;
+  flex-shrink: 0;
+}
+.containerfooter {
+  border-top: 2px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-3xs);
+  text-align: center;
+  font-size: var(--hfb-extra-small-size);
+  color: var(--color-black);
+  font-family: var(--hfb-extra-small);
+  align-self: stretch;
+}

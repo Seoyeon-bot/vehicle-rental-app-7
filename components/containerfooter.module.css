@@ -1,0 +1,96 @@
+.borrowOurCars {
+  margin: 0;
+}
+.textfooterTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.textfooter {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 100%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 397px;
+  flex-shrink: 0;
+}
+.textFooterContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.imageourLogoIcon {
+  position: relative;
+  width: 176px;
+  height: 184px;
+  object-fit: cover;
+}
+.buttonText,
+.linkfooter,
+.ourLogoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ourLogoContainer {
+  flex-direction: column;
+}
+.buttonText,
+.linkfooter {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 100%;
+  font-weight: 500;
+}
+.linkfooter {
+  text-decoration: none;
+  color: inherit;
+  width: 86px;
+  flex-shrink: 0;
+}
+.buttonText {
+  align-self: stretch;
+  flex: 1;
+  font-size: var(--reg-medium-size);
+  font-family: var(--hfb-extra-small);
+  color: var(--color-black);
+  text-align: center;
+}
+.buttonShape {
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 214px;
+  height: 82px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonsmallsmall {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.containerfooter {
+  border-top: 2px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-3xs);
+  text-align: center;
+  font-size: var(--hfb-extra-small-size);
+  color: var(--color-black);
+  font-family: var(--hfb-extra-small);
+  align-self: stretch;
+}

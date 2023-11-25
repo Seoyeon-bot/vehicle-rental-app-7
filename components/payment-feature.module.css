@@ -1,0 +1,145 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.gatherInformation,
+.reservationConfirmation {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.reservationConfirmation {
+  height: 389px;
+  z-index: 0;
+}
+.gatherInformation {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 294px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  mix-blend-mode: normal;
+}
+.fordescapeimageIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 20px;
+  left: 732px;
+  width: 391px;
+  height: 255px;
+  object-fit: cover;
+  z-index: 0;
+}
+.reservationConfirmation1 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  height: 389px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 0;
+}
+.calculateTotalCost,
+.carimagebackgroundIcon {
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
+}
+.calculateTotalCost {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  mix-blend-mode: normal;
+  opacity: 0;
+}
+.calculateTotalCost.animate,
+.paymentFeature.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.carimagebackgroundIcon {
+  max-width: 100%;
+  height: 139px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.paymentFeature,
+.rentalCarRulesrestition,
+.reservationConfirmation2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.rentalCarRulesrestition {
+  align-self: stretch;
+  background-color: var(--primary-30);
+  border: 1px solid var(--color-black);
+  align-items: center;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.paymentFeature,
+.reservationConfirmation2 {
+  box-sizing: border-box;
+}
+.reservationConfirmation2 {
+  align-self: stretch;
+  border-top: 1px solid var(--color-black);
+  height: 456px;
+  flex-shrink: 0;
+  align-items: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.paymentFeature {
+  text-decoration: none;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  width: 1440px;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-125xl);
+  gap: 29px;
+  opacity: 0;
+}
+@media screen and (max-width: 1200px) {
+  .paymentFeature {
+    align-items: center;
+    justify-content: flex-start;
+    padding: 80px var(--padding-xl);
+    box-sizing: border-box;
+    cursor: default;
+  }
+}
+@media screen and (max-width: 960px) {
+  .paymentFeature {
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 420px) {
+  .paymentFeature {
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1var (--padding-31xl) 50px;
+    box-sizing: border-box;
+  }
+}

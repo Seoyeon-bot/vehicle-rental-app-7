@@ -1,0 +1,56 @@
+.caption,
+.mainHeadline {
+  align-self: stretch;
+  position: relative;
+}
+.caption {
+  letter-spacing: 1px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: var(--primary-90);
+}
+.mainHeadline {
+  font-size: var(--heading-1-size);
+  line-height: 110%;
+}
+.loremIpsumDolor {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+.bibendumAmetAt {
+  margin: 0;
+}
+.secondaryHeadline {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--heading-2-size);
+  line-height: 110%;
+}
+.paragraph,
+.top {
+  align-self: stretch;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.paragraph {
+  position: relative;
+  font-size: var(--body-l-size);
+  line-height: 140%;
+}
+.alignmentcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  text-align: center;
+  font-size: var(--button-l-size);
+  color: var(--coolgray-90);
+  font-family: var(--body-xs);
+  align-self: stretch;
+}

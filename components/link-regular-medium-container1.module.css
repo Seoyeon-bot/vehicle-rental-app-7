@@ -1,0 +1,19 @@
+.linkregularmedium {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 100%;
+  font-weight: 500;
+  color: inherit;
+}
+.linkRegularMediumContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  text-align: center;
+  font-size: var(--reg-medium-size);
+  color: var(--color-black);
+  font-family: var(--reg-medium);
+}

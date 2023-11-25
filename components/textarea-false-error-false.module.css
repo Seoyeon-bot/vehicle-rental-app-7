@@ -1,0 +1,32 @@
+.label {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.labelAndField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.description {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-xs-size);
+  line-height: 140%;
+  color: var(--coolgray-60);
+}
+.textareafalseErrorfalse {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--body-s-size);
+  color: var(--coolgray-90);
+  font-family: var(--body-xs);
+}

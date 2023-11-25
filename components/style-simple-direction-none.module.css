@@ -1,0 +1,13 @@
+.label {
+  position: relative;
+}
+.stylesimpleDirectionnone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  font-size: var(--body-xs-size);
+  color: var(--coolgray-60);
+  font-family: var(--y-content);
+}

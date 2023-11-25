@@ -1,0 +1,50 @@
+.stepLabelShape,
+.stepLabelText {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stepLabelText {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 100%;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.stepLabelShape {
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+}
+.div {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 100%;
+  font-weight: 500;
+}
+.stepCircle {
+  border-radius: var(--br-31xl);
+  background-color: #24ff00;
+  width: 51px;
+  height: 51px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.stepObjectcomplete {
+  height: 137px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--reg-medium);
+}
